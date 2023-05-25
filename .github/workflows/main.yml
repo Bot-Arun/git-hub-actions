@@ -7,7 +7,7 @@ on:
 jobs:
   # To build the project
   build-tambola:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checking out code
         uses: actions/checkout@v3
